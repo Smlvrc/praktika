@@ -1,0 +1,133 @@
+header{
+   padding: 20px;
+    display: flex;
+    position: relative;
+}
+.West{
+    margin-left: 80px;
+}
+nav{
+    margin: o;
+    margin-left: 30px;
+    padding-top: 5px;
+  
+}
+ nav ul li{
+    display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ .calculator{
+display: inline-block;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: 10px;
+margin-left: 5px;
+
+ }
+ .kataloq{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-left:10px;
+ }
+ .selection{
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+ 
+ }
+ .Tel{
+display: inline-block;
+padding-left: 5px;
+padding-right: 5px;
+
+ }
+
+ .all{
+   
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:5px;
+    align-items: center;
+ }
+ .link{
+    text-decoration: none;
+ }
+ ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+ }
+.ikisi{
+    display: flex;
+    position: absolute;
+   right: 20px;
+}
+
+.calculator a{
+   display: inline-block;
+   padding: 5px;
+   color: white;
+
+}
+.calculator a:hover{
+    color: #4fb6a8;
+}
+
+.calculator{
+    background-color:#4fb6a8;
+
+    border: 1px solid rgb(240, 240, 240); 
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.calculator:hover{
+display: inline-block;
+background-color: aliceblue;
+border: 1px solid #4fb6a8;
+
+}
+
+.kataloq a{
+    display: inline-block;
+    padding: 5px;
+color: #4fb6a8;
+ 
+ }
+ .kataloq{
+     background-color:#ffffff;
+ 
+     border: 1px solid #4fb6a8; 
+     border-radius: 10px;
+     overflow: hidden;
+     transition: 0.5s;
+
+ }
+ .kataloq:hover{
+ display: inline-block;
+ background-color: #4fb6a8;
+ border: 1px solid #4fb6a8;
+ 
+ }
+ .kataloq:hover a{
+    color: white;
+ }
+
+.selection select{
+    width: 40px;
+    height: 30px;
+    border-color:rgb(252, 245, 245);
+    background-color: rgb(252, 245, 245);
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+} 
+.selection select:hover{
+    background-color: rgb(209, 201, 201);
+}
+.list a:hover{
+    color: #4fb6a8;
+}
